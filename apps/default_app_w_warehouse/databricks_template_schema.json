@@ -1,0 +1,29 @@
+{
+    "welcome_message": "\nWelcome to the app template for Databricks Asset Bundles!",
+    "properties": {
+        "bundle_name": {
+            "type": "string",
+            "default": "my_data_app_bundle",
+            "description": "Please provide the following details to tailor the template to your preferences.\n\nUnique name for this bundle\nbundle_name",
+            "order": 1,
+            "pattern": "^[A-Za-z0-9_]+$",
+            "pattern_match_failure_message": "The bundle name must consist of letters, numbers, and underscores."
+        },
+        "app_name": {
+            "type": "string",
+            "default": "my-data-app",
+            "description": "Display name for the app\napp_name",
+            "order": 2,
+            "pattern": "^[a-z0-9-]+$",
+            "pattern_match_failure_message": "The name can contain only lowercase alphanumeric characters and hyphens"
+        },
+        "sql_warehouse_id": {
+            "type": "string",
+            "pattern": "^\\w*$",
+            "pattern_match_failure_message": "Invalid sql warehouse id.",
+            "description": "SQL Warehouse ID to be used with the app\nsql_warehouse_id",
+            "order": 3
+        }
+    },
+    "success_message": "\n\nYour new project has been created in the '{{.project_name}}' directory!"
+}
