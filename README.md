@@ -38,10 +38,10 @@ databricks bundle deploy -t dev
 
 ## Useful Links
 
-- [Databricks Asset Bundles Overview](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/bundles/)
-- [Databricks Asset Bundles Tutorials](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/bundles/tutorials)
-- [Databricks Asset Bundles Configuration Reference](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/bundles/reference)
-- [Databricks Asset Bundles Resource Reference](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/bundles/resources)
-- [Databricks Custom Bundle Templates Documentation](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/bundles/templates#custom-templates)
-- [Bundle Template Creation Tutorial](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/bundles/template-tutorial)
+- [Databricks Asset Bundles Overview](https://docs.databricks.com/aws/en/dev-tools/bundles/)
+- [Databricks Asset Bundles Tutorials](https://docs.databricks.com/aws/en/dev-tools/bundles/tutorials)
+- [Databricks Asset Bundles Configuration Reference](https://docs.databricks.com/aws/en/dev-tools/bundles/reference)
+- [Databricks Asset Bundles Resource Reference](https://docs.databricks.com/aws/en/dev-tools/bundles/resources)
+- [Databricks Custom Bundle Templates Documentation](https://docs.databricks.com/aws/en/dev-tools/bundles/templates#custom-templates)
+- [Bundle Template Creation Tutorial](https://docs.databricks.com/aws/en/dev-tools/bundles/template-tutorial)
 
