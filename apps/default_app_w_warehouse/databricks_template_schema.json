@@ -1,13 +1,13 @@
 {
     "welcome_message": "\nWelcome to the app template for Databricks Asset Bundles!",
     "properties": {
-        "bundle_name": {
+        "project_name": {
             "type": "string",
             "default": "my_data_app_bundle",
-            "description": "Please provide the following details to tailor the template to your preferences.\n\nUnique name for this bundle\nbundle_name",
+            "description": "Please provide the following details to tailor the template to your preferences.\n\nUnique name for this project\nproject_name",
             "order": 1,
             "pattern": "^[A-Za-z0-9_]+$",
-            "pattern_match_failure_message": "The bundle name must consist of letters, numbers, and underscores."
+            "pattern_match_failure_message": "The project name must consist of letters, numbers, and underscores."
         },
         "app_name": {
             "type": "string",
