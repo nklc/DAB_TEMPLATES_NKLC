@@ -4,8 +4,6 @@
 name: 'Test Bundle Creation'
 
 on:
-  push:
-    branches: [ "main" ]
   pull_request:
     types:
       - opened
@@ -43,3 +41,5 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+      env:
+        DATABRICKS_TOKEN: ${{ secrets.DEV_TOK }}
